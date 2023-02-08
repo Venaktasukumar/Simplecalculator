@@ -2,7 +2,7 @@ package org.example;
 import java.util.*;
 import java.util.logging.*;
 
-class Simplecalculator {
+class Simplecalculator{
     double a;
     double b;
 
