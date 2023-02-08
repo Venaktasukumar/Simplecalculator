@@ -3,8 +3,8 @@ import java.util.*;
 import java.util.logging.*;
 
 class Simplecalculator{
-    double a;
-    double b;
+    private double a;
+    private double b;
 
     public double setnum1(double a){
         this.a=a;
