@@ -2,41 +2,6 @@ package org.example;
 import java.util.*;
 import java.util.logging.*;
 
-class Simplecalculator{
-    private double a;
-    private double b;
-
-    public double setnum1(double a){
-        this.a=a;
-        return a;
-    }
-
-    public double setnum2(double b){
-        this.b=b;
-        return b;
-    }
-}
-class Addition extends Simplecalculator {
-    public double calculate(double c , double d) {
-            return c+d;
-        }
-}
-class Subtraction extends Simplecalculator {
-    public double calculate(double c , double d) {
-        return c-d;
-    }
-}
-class Multiplication extends Simplecalculator {
-    public double calculate(double c , double d) {
-        return c*d;
-    }
-}
-class Division extends Simplecalculator {
-    public double calculate(double c, double d) {
-        return c / d;
-    }
-}
-
 class Main{
     public static void main(String[] args) {
         Logger l = Logger.getLogger("com.api.jar");
